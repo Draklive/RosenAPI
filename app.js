@@ -48,6 +48,7 @@ function writeSchedule(req, res, type) {
             for (var dayKey in schedule.days) {
                 var day = modifiedSchedule.days[dayKey] = {};
                 var Day = schedule.days[dayKey];
+                // need to add a for loop here
                 if(Day.ty == 'I'){
                     day.type = "inline";
                 } else if (Day.ty == 'B'){
