@@ -1,0 +1,23 @@
+{
+  "name": "rosenapi",
+  "version": "1.0.0",
+  "description": "The plan is: Use a http server to receive and respond to requests",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Draklive/RosenAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Draklive/RosenAPI/issues"
+  },
+  "homepage": "https://github.com/Draklive/RosenAPI#readme",
+  "dependencies": {
+    "htmlparser2": "^3.9.2",
+    "pdf2json": "^1.1.7"
+  }
+}
